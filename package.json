@@ -1,0 +1,12 @@
+{
+  "name": "arsara",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ARSARA storefront, WhatsApp checkout and admin. No third-party dependencies.",
+  "main": "server.js",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning test/run.js"
+  }
+}
